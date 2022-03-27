@@ -30,7 +30,7 @@ function binarySearchIterative(arr, target){
     let start = 0
     let end = arr.length-1
     
-    while (start<=end) {
+    while (start<end) {
         let middleIndex = Math.floor((start+end)/2)
         if(arr[middleIndex]===target){
             return `found at index: ${middleIndex}`
