@@ -24,7 +24,7 @@ function binarySearchRecursive(arr, target, start, end){
 // driver code
 //console.log(binarySearch(dataArray, 18))
 
-// iterative 
+/* / iterative has a major bug to be fixed as soon as posible
 function binarySearchIterative(arr, target){
  
     let start = 0
@@ -46,4 +46,4 @@ function binarySearchIterative(arr, target){
 
 // driver code
 console.log(binarySearchIterative(dataArray, 22))
-
+*/
